@@ -1,0 +1,466 @@
+@media screen and (max-width :576px) {
+    * {
+        padding: 0;
+        margin: 0;
+        border: solid 1px blue;
+    }
+    p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    @font-face {
+        font-family: 'Raleway';
+        src: url('./font/Raleway-VariableFont_wght.ttf') format('ttf'),
+           
+    }
+    
+    body {
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    /* *****NAV***** */
+    
+    ul {
+        margin-left: 60%;
+    }
+    
+    .logo {
+        letter-spacing: 5px;
+    }
+    
+    .barrenavigation li {
+        margin-left: 50px;
+    }
+    
+    .dollar {
+        font-weight: 600;
+    }
+    
+    
+    
+    
+    /* *****START SOMETHING***** */
+    
+    .start {
+        
+        background-image: url("./img/ordi.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        height: 900px;
+    }
+    
+    .start h1, .start p {
+        color: white;
+        
+        
+     }
+    
+     .start h1 {
+        font-weight: 400;
+        font-size: 3rem;
+        margin: 10% 0% 3% 3%;
+     }
+    
+     .start p {
+        font-size: 1.5rem;
+        margin: 5% 0% 6% 3%;
+     }
+    
+    .txtimg a {
+    text-decoration: none;
+    background-color: rgba(241, 235, 235, 0.507);
+    color: black;
+    padding: 2% 4%;
+    margin: 2% 0% 5% 3%;
+    }
+    
+    .logoreseaux {
+        margin: 18% 0% 3% 3%;
+    }
+    
+    .logoreseaux i{
+        padding-right: 5px;
+    }
+    
+    
+    
+    /* *****ABOUT***** */
+    
+    .about {
+        text-align: center;
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+    
+    .titretabout p {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    font-size: 1.2rem;
+    }
+    .about .txtabout {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .logoabout {
+        font-size: 500%;
+        margin: 0% 2%;
+    }
+    
+    
+    
+    /* *****WE KNOW DESIGN***** */
+    
+    
+    .weknow {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+        background-color: rgb(172, 168, 168);
+        padding: 15% 2%;
+        
+    }
+    .imgweknow {
+        width: 100%;
+    }
+    
+    .weknow .txtweknow h1 {
+        font-size: 2.5rem;
+    }
+    
+    .weknow .txtweknow p {
+        font-size: 1.5rem;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    
+    .weknow .txtweknow a {
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        padding: 2% 1%;
+    }
+    
+    .weknow .txtweknow i {
+        margin-right: 10px;
+    }
+    
+    .imgweknow img {
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+    /* *****TEAM***** */
+    
+    .team {
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    
+    
+    .titreteam p {
+        margin-top: 1%;
+        margin-bottom: 2%;
+        font-size: 1.2rem;
+    }
+    
+    .team .container_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 18%;
+       
+    }
+    
+    .card img {
+       width: 100%;
+    }
+    .card {
+        margin: 0% 0.5%;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    }
+    .card-body h6 {
+    color: gray;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    }
+    .team .container_card {
+        text-align: start;
+        margin-bottom: 10%;
+    }
+    .team .container_card a {
+        color: black;
+        background-color: rgb(212, 209, 209);
+        border-radius: 0%;
+        width: 100%;
+        border: none;
+    }
+    
+    
+    .bandeaugris {
+        padding: 5% 0%;
+        background-color: gray;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+        color: white;
+    }
+    
+    /* *****OUR WORK***** */
+    
+    
+    .ourwork {
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+    
+    
+    .titrework p {
+        margin-top: 1%;
+        margin-bottom: 2%;
+        font-size: 1.2rem;
+    }
+    
+    
+    
+    .imgwork img {
+    width: 100%;
+    padding: 1%;
+    }
+    .imgwork {
+        width: 80%;
+        margin-left: 10%;
+        padding: 1%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    
+    
+    /* *****OUR SKILLS***** */
+    
+    
+    
+    
+    .ourskills {
+        background-color: rgb(209, 207, 207);
+        padding: 5% 2%;
+        margin-top: 2%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .titreskills p {
+        margin-top: 5%;
+        margin-bottom: 2%;
+        font-size: 1.2rem;
+    }
+    .chargement {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 5%;
+    }
+    .chargement h1 {
+        margin-top: 1%;
+        font-size: 1.5rem;
+        letter-spacing: 10px;
+    }
+    .chargement .max {
+        background-color: gray;
+        height: 50px;
+        width: 100%;
+    }
+    
+    .chargement .skillphoto {
+        background-color: rgb(75, 71, 71);
+        height: 50px;
+        width: 90%;
+        color: white;
+        text-align: center;
+        padding-top: 0.7%;
+    }
+    
+    .chargement .skillweb {
+        background-color: rgb(75, 71, 71);
+        height: 50px;
+        width: 85%;
+        color: white;
+        text-align: center;
+        padding-top: 0.7%;
+    }
+    
+    .chargement .skillphotoshop {
+        background-color: rgb(75, 71, 71);
+        height: 50px;
+        width: 75%;
+        color: white;
+        text-align: center;
+        padding-top: 0.7%;
+    }
+    
+    /* *****PRICING***** */
+    .pricing {
+       
+        padding-top: 5%;
+       
+        text-align: center;
+        background-color: gray;
+    }
+    .titreprix {
+        color: white;
+    }
+    .titreprix p {
+        margin-top: 3%;
+        margin-bottom: 5%;
+        font-size: 1.2rem;
+        
+    }
+    
+    .containerprix {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .basic, .pro, .premium {
+        margin: 2%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .basic h1, .premium h1 {
+        font-size: 2rem;
+        padding: 5% 0%;
+        background-color: black;
+        color: white;
+    }
+    .pro h1 {
+        color: white;
+        font-size: 2rem;
+        padding: 7% 0%;
+        background-color: red;
+    }
+    .basic span, .premium span, .pro span {
+        font-weight: 600;
+    }
+    
+    .gris {
+        color: gray;
+    }
+    .basic, .premium, .pro {
+        background-color: white;
+        border: solid 1px gray;
+    }
+    
+    .containerprix .valider {
+        background-color: rgb(185, 180, 180);
+        padding: 5% 3%;
+    }
+    .containerprix .valider a {
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        padding: 2% 3%;
+    }
+    
+    .containerprix .valider p {
+        margin-bottom: 0;
+    }
+    
+    
+    
+    /* *****CONTACT***** */
+    
+    .contact {
+        padding-top: 5%;
+        text-align: center;
+        background-color: rgb(201, 201, 201);
+    }
+    
+    .titreprix p {
+        margin-top: 3%;
+        margin-bottom: 5%;
+        font-size: 1.2rem;
+        
+    }
+    
+    
+    .titrecontact{
+         margin-bottom: 1%;
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+    
+    #txtcontact{
+        margin-top: 3%;
+        margin-bottom: 5%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .adresse {
+        text-align: start;
+        margin: 3% 1%;
+    }
+    .adresse p {
+        margin: 1% 0%;
+    }
+    
+    .adresse i {
+        margin: 0% 0.5%;
+    }
+    .formulaire{
+        margin-left: 1%;
+        display: block;
+        width: 98%;
+    }
+    
+    .bouttonsubmit{
+        margin-left: 1%;
+        background-color: black;
+        color: white;
+        padding: 0.5%;
+    }
+    .send {
+        text-align: start;
+        margin-left: 1%;
+    }
+    .contact button {
+        background-color: black;
+        color: white;
+        text-align: start;
+    }
+    .imgstreet img{
+        width: 100%;
+     
+    }
+    .imagerue {
+        width: 10%;
+    }
+    
+    /* FOOTER */
+    
+    footer{
+        height: 150px;
+        text-decoration: none;
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin-top: 2%;
+        padding-top: 2%;
+    }
+    .footertop a{
+        margin: 3%;
+        padding: 1% 2%;
+        background-color: white;
+        text-decoration: none;
+        color: black;
+    }
+    .footerlogo {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
