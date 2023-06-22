@@ -128,6 +128,7 @@ font-size: 1.2rem;
 .weknow .txtweknow p {
     font-size: 1.5rem;
     margin-top: 3%;
+    margin-bottom: 3%;
 }
 
 .weknow .txtweknow a {
@@ -135,6 +136,7 @@ font-size: 1.2rem;
     background-color: black;
     color: white;
     padding: 1%;
+    
 }
 
 .weknow .txtweknow i {
@@ -319,10 +321,11 @@ padding: 1%;
 .basic, .pro, .premium {
     margin: 2%;
     width: 32%;
+    
 }
 .basic h1, .premium h1 {
     font-size: 2rem;
-    padding: 5% 0%;
+    padding: 7% 0%;
     background-color: black;
     color: white;
 }
@@ -342,6 +345,7 @@ padding: 1%;
 .basic, .premium, .pro {
     background-color: white;
     border: solid 1px gray;
+    
 }
 
 .containerprix .valider {

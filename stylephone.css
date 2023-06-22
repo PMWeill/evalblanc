@@ -141,6 +141,7 @@
         background-color: black;
         color: white;
         padding: 2% 1%;
+        
     }
     
     .weknow .txtweknow i {
@@ -433,12 +434,12 @@
         color: white;
         text-align: start;
     }
-    .imgstreet img{
+    /* .imgstreet img{
         width: 100%;
      
-    }
-    .imagerue {
-        width: 10%;
+    } */
+    .imagerue img {
+        width: 100%;
     }
     
     /* FOOTER */
